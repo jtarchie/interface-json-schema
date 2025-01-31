@@ -4,7 +4,7 @@
 go run ./... main.go
 ```
 
-So an interface:
+So an interface, taken from [OpenAI docs](https://platform.openai.com/docs/guides/function-calling#defining-functions):
 
 ```go
 type Weather interface {
